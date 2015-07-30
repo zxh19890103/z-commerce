@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="../script/jquery-1.7.2.min.js"></script>
+    <script src="../js/easing.js"></script>
+    <script src="../script/naite.utility.js"></script>
+</head>
+<body>
+
+    <button onclick="ZoomIn('../images/tcgs_img1.jpg');">ZoomIn</button>
+
+    <script type="text/javascript">
+
+        function ZoomIn(src) {
+            var img = document.createElement('img');
+            img.id = 'img_zoomin_' + Math.random().toPrecision(9).substr(2);            
+            img.src = src;
+            document.body.appendChild(img);
+            img.onclick = function () { ZoomOut(img); };
+            var $img = $(img);
+            //center element
+            var top = 0;
+            var left = 0;
+            var width = $img.width();
+            var height = $img.height();
+            top = (document.documentElement.clientHeight - height) / 2 + document.documentElement.scrollTop + document.body.scrollTop;
+            left = (document.documentElement.clientWidth - width) / 2;
+            var zindex = zindex || 1990;
+            $img.css({ 'position': 'absolute', 'top': top, 'left': left, 'z-index': zindex, display: 'none' });
+            nt.showMask();
+            $img.fadeIn(800);
+        }
+
+        function ZoomOut(img) {
+            $(img).fadeOut(500, null, function () {
+                $(img).remove();
+                nt.removeMask();
+            });            
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿body { }
+
+#submit-button { width: 80%; margin: 10px auto; display: block; }
+
+.login-content { width: 33%; margin: 100px auto; }
+
+#login-form { width: 100%; border: 1px solid #DDDDDD; border-radius: 3px 4px; }
+
+.text-center { color: #C2C2C2; text-align: center; }
+
+.opacity-80 { filter: alpha(opacity=80); -moz-opacity: 0.8; opacity: 0.8; padding: 0 5px; }
+
+.content-box { }
+
+.form-group { }
+
+    .form-group label { display: block; font-weight: 700; color: #3a4049; font-size: 14px; width: 90%; margin: 0 auto; margin-bottom: 5px; }
+
+    .form-group .login-icon { display: block; width: 34px; height: 34px; position: absolute; top: 0; left: 20px; z-index: 1989; }
+
+        .form-group .login-icon i { display: block; width: 24px; height: 24px; margin: 6px; }
+
+.login-icon-user { background: url('../images/login-user.png') no-repeat; }
+
+.login-icon-password { background: url('../images/login-lock.png') no-repeat; }
+
+.login-icon-checkcode { background: url('../images/login-check.png') no-repeat; }
+
+.form-control { width: 80%; margin: 0 auto; display: block; position: absolute; top: 0; left: 20px; }
+
+#exampleInputUser, #exampleInputPassword, #exampleInputCheckcode { padding-left: 40px; padding-right: 0; }
+
+#exampleInputCheckcode { width: 56%; margin: 0; }
+
+.form-input { position: relative; height: 50px; z-index: 1988; }
+
+.button-panel { width: 100%; margin: 10px 0; background-color: #FAFAFA; border-top: 1px solid #DDDDDD; }
+
+.checkcode-wrapper { margin: 0; position: absolute; right: 5%; }
+
+.checkcode-image { margin: 0; cursor: pointer; float: left; }
+
+.corpyRight { color: #3c4a55; font-size: 11px; font-family: Arial, Helvetica, sans-serif; width: 100%; text-align: center; }
+
+    .corpyRight a { color: #ff6401; }

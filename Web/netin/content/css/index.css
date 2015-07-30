@@ -1,0 +1,69 @@
+﻿#content_container { background: url('../images/bg.png') repeat; }
+
+#footer { height: 80px; background: url('../images/bg.png') repeat; }
+
+.layer-1 { background-color: #efefef; box-shadow: 0px 0px 10px rgba(0,0,0,0.8); border: 1px solid #ffffff; height: 145px; margin: 20px auto; margin-bottom: 30px; padding: 16px; padding-bottom: 22px; border-radius: 3px 4px; min-width: 850px; }
+
+.layer-1-left { width: 400px; }
+
+.layer-1-right { width: 450px; }
+
+.layer-1-left-up { position: relative; left: -18px; }
+
+.layer-1-left-down { }
+
+.admin-profile { width: 100px; height: 100px; }
+
+    .admin-profile img { margin: 26px 7px 2px 12px; }
+
+.admin-name { font-size: 16px; color: #7b7b7b; margin-top: 27px; }
+
+.logout-control { background-color: #ffffff; height: 25px; width: 78px; color: #bdbdbd; font-size: 14px; text-align: center; line-height: 25px; border-radius: 2px; margin-top: 8px; cursor: pointer; }
+
+    .logout-control:hover { background-color: #cccccc; color: #fff; }
+
+.layer-1-right-up { background-color: #f2b02f; height: 26px; line-height: 26px; overflow: hidden; border-radius: 1px; }
+
+    .layer-1-right-up span { color: #ffffff; padding: 7px 4px; }
+
+        .layer-1-right-up span a { padding: 3px; margin: 0; color: #f00; }
+
+.layer-1-right-down { margin: 22px 0 0 0; }
+
+.layer-1-right-down-inner { border-left: 1px solid #a0a0a0; padding-left: 10px; color: #a0a0a0; }
+
+.layer-2 { }
+
+    .layer-2 ul { display: block; overflow: hidden; margin: 0; padding: 0; }
+
+        .layer-2 ul li { display: block; float: left; margin: 18px; width: 144px; }
+
+            .layer-2 ul li img { width: 144px; height: 144px; }
+
+            .layer-2 ul li a { color: #4a4a4a; text-decoration: none; font-size: 18px; }
+
+.layer-3 { width: 100%; }
+
+.ads-of-naite { width: 63%; overflow: hidden; }
+
+.ads-of-naite-text { color: #555555; margin-bottom: 13px; margin-top: 25px; }
+
+    .ads-of-naite-text img { }
+
+.ads-of-naite-page { width: 100%; height: 398px; }
+
+.contact-us { width: 37%; color: #555555; }
+
+.contact-us-way, .contact-us-map, .contact-us-lookforward { margin-left: 69px; }
+
+.contact-us-way { font-size: 12px; margin-bottom: 8px; position: relative; }
+
+.contact-us-map { height: 152px; }
+
+.index-line { border-bottom: 1px solid #9D9D9D; }
+
+.qq { position: absolute; top: 0; }
+
+.qq0 { right: 0px; }
+
+.qq1 { right: 40px; }

@@ -1,0 +1,36 @@
+﻿.products-attr { margin: 10px auto; }
+
+    .products-attr label { font-style: normal; font-size: 12px; font-weight: 100; padding: 0 5px; }
+
+.attr-select { }
+
+    .attr-select select { width: 80px; padding: 0.4em; border-radius: 0.3em; border: 1px solid #A29C9C; outline: none; }
+
+    .attr-select option { color: #585757; }
+
+.attr-radio { }
+
+.attr-checkbox { }
+
+.attr-colors { }
+
+    .attr-colors ul { margin: 0; padding: 0; }
+
+    .attr-colors li { list-style: none; display: inline-block; margin: 4px 7px 2px 4px; width: 24px; height: 24px; }
+
+        .attr-colors li a span { width: 22px; height: 22px; display: inline-block; }
+
+        .attr-colors li a:hover { opacity: 0.8; }
+
+        .attr-colors li.active { border: 1px dashed #808080; }
+
+.nt-reviews { display: block; margin: 0; padding: 0; width: 100%; }
+    .nt-reviews span { font-weight: normal; font-size: 12px; color: #808080; }
+li.nt-review-item { display: block; width: 100%; min-height: 20px; margin: 4px 0 4px 0; }
+span.nt-review-body { display: block; width: 700px; text-indent: 2em; }
+.nt-review-customer-date { text-align: right; width: 700px; }
+span.nt-review-customer { display: inline-block; width: 100px; text-align: right; color: #888888; }
+span.nt-review-date { display: inline-block; text-align: left; width: 200px; padding-left: 10px; color: #999999; }
+
+span.nt-review-nice { font-size: 12px; font-family: Arial; cursor: pointer; }
+rating { color: #f00; display: inline-block; }

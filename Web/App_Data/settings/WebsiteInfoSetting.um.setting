@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebsiteInfoSetting>
+  <WebsiteName>
+  </WebsiteName>
+  <SeoTitle>
+  </SeoTitle>
+  <SeoKeywords>
+  </SeoKeywords>
+  <SeoDescription>
+  </SeoDescription>
+  <CompanyName>
+  </CompanyName>
+  <CompanyAddress>
+  </CompanyAddress>
+  <WebsiteUrl>
+  </WebsiteUrl>
+  <Email>
+  </Email>
+  <Phone>
+  </Phone>
+  <Fax>
+  </Fax>
+  <Mobile>
+  </Mobile>
+  <Linkman>
+  </Linkman>
+  <ZipCode>
+  </ZipCode>
+  <ICP>
+  </ICP>
+  <SetHtmlOn>False</SetHtmlOn>
+  <QQ>
+  </QQ>
+  <SetWebsiteOff>False</SetWebsiteOff>
+  <Logo>
+  </Logo>
+</WebsiteInfoSetting>

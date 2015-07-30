@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProductSetting>
+  <EnableThumbOnList>False</EnableThumbOnList>
+  <ThumbWidthOnList>0</ThumbWidthOnList>
+  <ThumbHeightOnList>0</ThumbHeightOnList>
+  <ThumbModeOnList>0</ThumbModeOnList>
+  <EnableThumbOnHome>False</EnableThumbOnHome>
+  <ThumbWidthOnHome>0</ThumbWidthOnHome>
+  <ThumbHeightOnHome>0</ThumbHeightOnHome>
+  <ThumbModeOnHome>0</ThumbModeOnHome>
+  <EnableThumbOnDetail>False</EnableThumbOnDetail>
+  <ThumbWidthOnDetail>0</ThumbWidthOnDetail>
+  <ThumbHeightOnDetail>0</ThumbHeightOnDetail>
+  <ThumbModeOnDetail>0</ThumbModeOnDetail>
+  <EnableTextMark>False</EnableTextMark>
+  <TextMark>
+  </TextMark>
+  <TextMarkPosition>0</TextMarkPosition>
+  <FontFamily>
+  </FontFamily>
+  <WidthOfTextBox>0</WidthOfTextBox>
+  <HeightOfTextBox>0</HeightOfTextBox>
+  <EnableImgMark>False</EnableImgMark>
+  <ImgMarkAlpha>0</ImgMarkAlpha>
+  <ImgMarkPosition>0</ImgMarkPosition>
+  <MarkImgUrl>
+  </MarkImgUrl>
+</ProductSetting>

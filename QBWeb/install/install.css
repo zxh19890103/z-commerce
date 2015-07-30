@@ -1,0 +1,12 @@
+﻿body { background-color: #FF7748; font-size: 12px; font-family: "宋体"; }
+.cellTitle { text-align: right; color: #fff; }
+.cellData { text-align: left; }
+.mask { position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 20000; background-color: gray; filter: alpha(opacity=50); /*IE滤镜，透明度50%*/ -moz-opacity: 0.5; /*Firefox私有，透明度50%*/ opacity: 0.5; /*其他，透明度50%*/ display: none; }
+.loading { position: fixed; z-index: 20001; top: 200px; left: 48%; width: 100px; height: 100px; display: none; }
+input[type=text], input[type=password] { width: 200px; height: 22px; line-height: 22px; border: 1px solid #bababa; background: #fff; text-align: left; font-size: 12px; color: #545454; }
+input[type=submit] { width: 64px; height: 26px; font-size: 12px; text-align: center; line-height: 26px; display: inline-block; color: #555555; }
+    input[type=submit]:hover { cursor: pointer; }
+#msg { width: 50%; height: 30px; margin: 5px auto; color: #860033; background-color: #FBE3E4; border: 1px solid #FBC2C4; display: none; font-size: 12px; text-align: center; line-height: 30px; }
+.install-box { text-align: center; width: 400px; height: 300px; margin: 20px auto; }
+
+.install-button { width: 80px; height: 35px; }

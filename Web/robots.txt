@@ -1,0 +1,19 @@
+﻿User-agent:*
+Disallow:/app_code/
+Disallow:/app_data/
+Disallow:/bin/
+Disallow:/content/
+Disallow:/customer/
+Disallow:/error/
+Disallow:/handlers/
+Disallow:/html/
+Disallow:/html.inc/
+Disallow:/install/
+Disallow:/netin/
+Disallow:/script/
+Disallow:/shared/
+Disallow:/upload/
+Allow: .htm$
+Allow: .htm$
+Allow: .htm$
+Sitemap:/sitemap.xml

@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>kimosft-jscalendar 开发文档</title>
+<style type="text/css">
+<!--
+body {
+    font-family: "微软雅黑", Tahoma, Verdana;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 50px 10px;
+}
+span, label, p, input {
+    font-family: "微软雅黑", Tahoma, Verdana;
+    font-size: 12px;
+    font-weight: normal;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+}
+h1 {
+    font-family: "微软雅黑", Tahoma, Verdana;
+    font-size: 16px;
+    font-weight: bold;
+}
+h2 {
+    font-family: "微软雅黑", Tahoma, Verdana;
+    font-size: 14px;
+    font-weight: bold;
+}
+div.effect {
+    border: 1px dotted #3C78B5;
+    background-color: #D8E4F1;
+    padding: 10px;
+    width: 98%;
+}
+div.source {
+    border: 1px solid #CCC;/*#090*/
+    background-color: #F5F5F5;/*#DFD*/
+    padding: 10px;
+    width: 98%;
+}
+.color_red {
+    color:#FF0000;
+}
+.b {
+    font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<script type="text/javascript" src="calendar.js"></script>
+<form id="form1" name="form1" method="post" action="">
+  <h1>1、什么是 kimsoft-jscalendar ?</h1>
+  <ul>
+    <li>一个简洁的avaScript日历控件，可在Java Web 项目，.NET Web 项目中使用</li>
+  </ul>
+  <h1>2、kimsoft-jscalendar 有什么特点？</h1>
+  <ul>
+    <li>1、小巧，单文件 </li>
+    <li>2、支持多语言，并可自由扩充（目前支持简体中文，繁体中文，英语美国和英语英国）</li>
+    <li> 3、兼容ie6.0+, firefox1.0+, Opera9，其它浏览器未测试</li>
+    <li>4、回显选定的时间，这是很多其它日历控件没有的 </li>
+    <li>5、Apache license 2.0，商业友好。可免费使用，自由修改传播，但请保留版权信息</li>
+    <li>6、用 iframe 解决 IE 中层在 select 控件上显示的问题</li>
+    <li>7、其它特点有特发现...</li>
+  </ul>
+  <h1>3、版本:</h1>
+  <ul>
+    <li>V20080409（制作了此帮助文档） <a href="http://code.google.com/p/kimsoft-jscalendar/downloads/list" target="_blank">下载</a></li>
+    <li>V20080322（第一次在Google Code上发布）</li>
+  </ul>
+  <h1>4、使用说明:</h1>
+  <h2>4.1、将 js 文件导入到页面中（可以是 html, jsp, asp, aspx, php）等。</h2>
+  <div class="source">&lt;script type=&quot;text/javascript&quot; src=&quot;calendar.js&quot;&gt;&lt;/script&gt;</div>
+  <br />
+  注意以下点：
+  <ul>
+    <li>&nbsp;calendar.js 文件内容编写是UTF-8，请一定要将此文件的编码设置为UTF-8</li>
+    <li>&nbsp;上面的代码内容<span class="color_red b">一定要放在HTML的&lt;body&gt;&lt;/body&gt;之间</span>，特别是在符合XHTML规范的文档中</li>
+    <li>包含此文件后，此页面已经自动实例化了一个日历对象 calendar，现在就可以使用了</li>
+  </ul>
+  <h2>4.2、一个最简单的例子<br />
+  </h2>
+  <div class="source">用预定义的 calendar 对象生成日历代码：&lt;input name=&quot;date&quot; type=&quot;text&quot; id=&quot;date&quot; onclick=<strong>&quot;calendar.show(this);</strong>&quot; size=&quot;10&quot; maxlength=&quot;10&quot; readonly=&quot;readonly&quot; /&gt;<br />
+  </div>
+  <br />
+  <div class="effect">效果：
+    <input name="date" type="text" id="date" onclick="calendar.show(this);" size="10" maxlength="10" readonly="readonly" />
+  </div>
+  <br />
+  当然也可以这样：<br />
+  <p/>
+  <div class="source">new 一个新的日历对象并生成日历代码：&lt;input name=&quot;date&quot; type=&quot;text&quot; id=&quot;date&quot; onclick=<strong>&quot;new Calendar().show(this);</strong>&quot; size=&quot;10&quot; maxlength=&quot;10&quot; readonly=&quot;readonly &quot;/&gt;<br />
+  </div>
+  <br />
+  <div class="effect">效果：
+    <input name="date2" type="text" id="date2" onclick="new Calendar().show(this);" size="10" maxlength="10" readonly="readonly" />
+  </div>
+  <br />
+  <h2>4.3、指定开始年份和结束年份的日历<br />
+  </h2>
+  <div class="source"> 指定开始年份和结束年份的日历代码：&lt;input name=&quot;range_date&quot; type=&quot;text&quot; id=&quot;range_date&quot; onclick=&quot;new Calendar(2000, 2008).show(this);&quot; size=&quot;10&quot; maxlength=&quot;10&quot; readonly=&quot;readonly&quot; /&gt;<br />
+  </div>
+  <br />
+  <div class="effect"> 只能选择 2000 到 2008年间的日期：
+    <input name="range_date" type="text" id="range_date" onclick="new Calendar(2000, 2008).show(this);" size="10" maxlength="10" readonly="readonly" />
+  </div>
+  <h2>4.4、多语言版本支持（可自由扩充），目前支持的语言：0(zh_cn)|1(en_us)|2(en_en)|3(zh_tw)</h2>
+  <div class="source"> 中文日历代码：    &lt;input name=&quot;cn_date&quot; type=&quot;text&quot; id=&quot;cn_date&quot; onclick=&quot;new Calendar().show(this);&quot; size=&quot;10&quot; maxlength=&quot;10&quot; readonly=&quot;readonly&quot; /&gt;<br />
+  </div>
+  <br />
+  <div class="effect">中文日历效果：
+    <input name="cn_date" type="text" id="cn_date" onclick="new Calendar().show(this);" size="10" maxlength="10" readonly="readonly"/>
+  </div>
+  <br />
+  <div class="source"> 繁体中文日历代码：    &lt;input name=&quot;tw_date&quot; type=&quot;text&quot; id=&quot;tw_date&quot; onclick=&quot;new Calendar(null, null, 3).show(this);&quot; size=&quot;10&quot; maxlength=&quot;10&quot; readonly=&quot;readonly&quot; /&gt;<br />
+  </div>
+  <br />
+  <div class="effect">繁体中文日历效果：
+    <input name="tw_date" type="text" id="tw_date" onclick="new Calendar(null, null, 3).show(this);" size="10" maxlength="10" readonly="readonly" />
+    <br />
+  </div>
+  <br />
+  <div class="source"> 英文日历代码：    &lt;input name=&quot;en_date&quot; type=&quot;text&quot; id=&quot;en_date&quot; onclick=&quot;new Calendar(null, null, 1).show(this);&quot; size=&quot;10&quot; maxlength=&quot;10&quot; readonly=&quot;readonly&quot; /&gt;<br />
+  </div>
+  <br />
+  <div class="effect">英文日历效果：
+    <input name="en_date" type="text" id="en_date" onclick="new Calendar(null, null, 1).show(this);" size="10" maxlength="10" readonly="readonly" />
+  </div>
+  <h2>4.5、在一个控件上点击选择，在另外一个控件上显示日期</h2>
+  <div class="source"> 代码：<br />
+    &lt;input name=&quot;control_date&quot; type=&quot;text&quot; id=&quot;control_date&quot;size=&quot;10&quot; maxlength=&quot;10&quot; readonly=&quot;readonly&quot; /&gt;<br />
+    &lt;input type=&quot;button&quot; name=&quot;button&quot; id=&quot;button&quot; value=&quot;选择日期&quot; onclick=&quot;new Calendar().show(this.form.control_date);&quot; /&gt;<br />
+  </div>
+  <br />
+  <div class="effect">效果：
+    <input name="control_date" type="text" id="control_date"size="10" maxlength="10" readonly="readonly" />
+    <label>
+    <input type="button" name="button" id="button" value="选择日期" onclick="new Calendar().show(this.form.control_date);" />
+    </label>
+  </div>
+  <h2>4.6、其它功能</h2>
+  其它功能请参考 calendar.js 源码，里面有详细的注释，本文档源码也是很好的代码资源，有问题请<a href="http://code.google.com/p/kimsoft-jscalendar/issues/list" target="_blank">提交ISSUES</a><br />
+  <h1>5、相关资源:</h1>
+  <ul>
+    <li>Google Code: <a href="http://code.google.com/p/kimsoft-jscalendar/" target="_blank">http://code.google.com/p/kimsoft-jscalendar/</a></li>
+    <li>kimsoft's Blog: <a href="http://blog.csdn.net/kimsoft" target="_blank">http://blog.csdn.net/kimsoft</a></li>
+    <li>kimsoft's Mail: <a href="mailto:jinqinghua@gmail.com">jinqinghua@gmail.com</a></li>
+  </ul>
+  <h1>6、License:</h1>
+  <ul>
+    <li>基于 Apache license 2.0，商业友好。可免费使用，自由修改传播，但请保留版权信息</li>
+  </ul>
+</form>
+</body>
+</html>

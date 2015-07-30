@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{86A8D811-A93E-4CDB-9757-DCFFD399014D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nt.BLL</RootNamespace>
+    <AssemblyName>Nt.BLL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseService.cs" />
+    <Compile Include="CachingManager.cs" />
+    <Compile Include="Class2SqlGenerator.cs" />
+    <Compile Include="CustomerService.cs" />
+    <Compile Include="DataBaseService.cs" />
+    <Compile Include="EntityExtension.cs" />
+    <Compile Include="FilterService.cs" />
+    <Compile Include="GlobalConst.cs" />
+    <Compile Include="Htmlizer.cs" />
+    <Compile Include="InstallService.cs" />
+    <Compile Include="IService.cs" />
+    <Compile Include="LanguageCodeProvider.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="MailSender.cs" />
+    <Compile Include="MediaService.cs" />
+    <Compile Include="NtContext.cs" />
+    <Compile Include="NtUnLoginException.cs" />
+    <Compile Include="NtUtility.cs" />
+    <Compile Include="PermissionRecordProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegexUtility.cs" />
+    <Compile Include="RobotsHelper.cs" />
+    <Compile Include="SecurityService.cs" />
+    <Compile Include="SettingService.cs" />
+    <Compile Include="SitemapHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserService.cs" />
+    <Compile Include="WaterMarker.cs" />
+    <Compile Include="WebHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nt.DAL\Nt.DAL.csproj">
+      <Project>{d3aa9201-d8a9-4020-a6a4-7e7d0aaa6f4c}</Project>
+      <Name>Nt.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nt.Model\Nt.Model.csproj">
+      <Project>{ccb94fdc-5c57-4062-b444-aac79054de89}</Project>
+      <Name>Nt.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

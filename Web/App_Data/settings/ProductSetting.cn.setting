@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProductSetting>
+  <ThumbWidthOnList>12</ThumbWidthOnList>
+  <ThumbHeightOnList>23</ThumbHeightOnList>
+  <ThumbModeOnList>20</ThumbModeOnList>
+  <EnableThumbOnHome>False</EnableThumbOnHome>
+  <ThumbWidthOnHome>0</ThumbWidthOnHome>
+  <ThumbHeightOnHome>0</ThumbHeightOnHome>
+  <ThumbModeOnHome>10</ThumbModeOnHome>
+  <EnableThumbOnDetail>True</EnableThumbOnDetail>
+  <ThumbWidthOnDetail>12</ThumbWidthOnDetail>
+  <ThumbHeightOnDetail>23</ThumbHeightOnDetail>
+  <ThumbModeOnDetail>1</ThumbModeOnDetail>
+  <EnableTextMark>False</EnableTextMark>
+  <TextMark>
+  </TextMark>
+  <TextMarkPosition>40</TextMarkPosition>
+  <FontFamily>Arial</FontFamily>
+  <WidthOfTextBox>0</WidthOfTextBox>
+  <HeightOfTextBox>0</HeightOfTextBox>
+  <EnableImgMark>False</EnableImgMark>
+  <ImgMarkAlpha>0</ImgMarkAlpha>
+  <ImgMarkPosition>60</ImgMarkPosition>
+  <MarkImgUrl>/upload/201412/201412040116234746.jpg</MarkImgUrl>
+  <EnableThumbOnList>True</EnableThumbOnList>
+  <PageSize>0</PageSize>
+  <PagerItemCount>0</PagerItemCount>
+</ProductSetting>

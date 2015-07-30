@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Grid Of Naite</title>
+    <style type="text/css">
+        .nt-grid { width: 100%; }
+            .nt-grid ul { }
+        ul.nt-grid-wrap { display: block; width: 94%; margin: 0 auto; padding: 0px; background: #ddd; position: relative; }
+        li.nt-grid-item { display: block; width: 240px; height: 150px; background: #00ff21; position: absolute; }
+    </style>
+    <script src="script/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="script/jquery.easing.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <div id="nt-grid">
+        <ul class="nt-grid-wrap" id="ntGridWrap">
+            <li class="nt-grid-item" style="height: 100px">1</li>
+            <li class="nt-grid-item" style="height: 150px">2</li>
+            <li class="nt-grid-item" style="height: 190px">3</li>
+            <li class="nt-grid-item" style="height: 210px">4</li>
+            <li class="nt-grid-item" style="height: 50px">5</li>
+            <li class="nt-grid-item" style="height: 100px">6</li>
+            <li class="nt-grid-item" style="height: 410px">7</li>
+            <li class="nt-grid-item" style="height: 320px">8</li>
+            <li class="nt-grid-item" style="height: 180px">9</li>
+            <li class="nt-grid-item" style="height: 202px">10</li>
+            <li class="nt-grid-item" style="height: 300px">11</li>
+            <li class="nt-grid-item" style="height: 250px">12</li>
+            <li class="nt-grid-item" style="height: 280px">13</li>
+            <li class="nt-grid-item" style="height: 140px">14</li>
+            <li class="nt-grid-item" style="height: 261px">15</li>
+            <li class="nt-grid-item" style="height: 125px">16</li>
+        </ul>
+    </div>
+
+    <script type="text/javascript">
+
+        function reGrid() {
+            //定宽、定高，但是不定每列格子的个数
+            var cols = 10, margin = 10, total = 0;
+            var gridWrap = $('#ntGridWrap');
+            var totalWidth = gridWrap.width();
+            var width = $('li.nt-grid-item', gridWrap).width();
+            var width2 = width + 2 * margin;
+            var x = 0, y = 0;
+            var xPaddingLeft = 0;
+            cols = parseInt((totalWidth / width2).toFixed(0));
+            xPaddingLeft = (totalWidth - cols * width2) / 2;
+            total = $('li.nt-grid-item', gridWrap).length;
+            var j = 0, l = 0;
+            var i = 0;
+
+            function moveNext() {
+                if (j == cols) {
+                    j = 0;
+                    l++;
+                }
+                if (l == 0) {
+                    y = 0;
+                } else {
+                    var upperGridItem = $('li.nt-grid-item:eq(' + (i - cols) + ')', gridWrap);
+                    y = upperGridItem.height() + 2 * margin + upperGridItem.position().top;
+                }
+                x = j * width2;
+                j++;
+                i++;
+                return { x: x + xPaddingLeft, y: y };
+            }
+
+            function dg() {
+                if (i == total) return;
+                var n = $('li.nt-grid-item:eq(' + i + ')', gridWrap);
+                var p = moveNext();
+                n.animate({ top: p.y, left: p.x }, 100, 'easeInBack', function () { dg(); });
+            }
+
+            dg();
+
+        }
+
+        reGrid();
+
+        $(window).resize(function () {
+            reGrid();
+        });
+
+    </script>
+
+</body>
+</html>

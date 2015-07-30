@@ -1,0 +1,269 @@
+<ul class="sidebar-catalog sidebar-catalog-depth-1">
+<li class="sidebar-catalog-item">
+<a href="javascript:;" onclick="openSubMenu(this);" id="menu-item-1"><i class="sidebar-catalog-item-ico"></i><span class="sidebar-catalog-item-text">系统首页<br/><font class="font-size-12 Arial">SYSTEM</font></span><i class="sidebar-catalog-item-arrow sidebar-catalog-item-arrow-down"></i></a><ul class="sidebar-catalog sidebar-catalog-depth-2">
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="1" src="/netin/index.aspx" onclick="setAnchor(this);"><span>系统首页<br/><font class="font-size-9 Arial">
+SYSTEM</font></span></a></li>
+</ul>
+</li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" onclick="openSubMenu(this);" id="menu-item-95"><i class="sidebar-catalog-item-ico"></i><span class="sidebar-catalog-item-text">静态化<br/><font class="font-size-12 Arial">HTMLIZATION</font></span><i class="sidebar-catalog-item-arrow sidebar-catalog-item-arrow-down"></i></a><ul class="sidebar-catalog sidebar-catalog-depth-2">
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="95" src="/netin/html/htmlIndexPage.aspx" onclick="setAnchor(this);"><span>首页静态化<br/><font class="font-size-9 Arial">
+HTMLIZE INDEX PAGES</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="95" src="/netin/html/htmlDetailPages.aspx" onclick="setAnchor(this);"><span>详细页静态化<br/><font class="font-size-9 Arial">
+HTMLIZE DETAIL PAGES</font></span></a></li>
+</ul>
+</li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" onclick="openSubMenu(this);" id="menu-item-79"><i class="sidebar-catalog-item-ico"></i><span class="sidebar-catalog-item-text">数据库<br/><font class="font-size-12 Arial">DATABASE</font></span><i class="sidebar-catalog-item-arrow sidebar-catalog-item-arrow-down"></i></a><ul class="sidebar-catalog sidebar-catalog-depth-2">
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="79" src="/netin/db/execute.aspx" onclick="setAnchor(this);"><span>脚本执行<br/><font class="font-size-9 Arial">
+EXECUTE SCRIPT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="79" src="/netin/db/backup.aspx" onclick="setAnchor(this);"><span>数据库备份<br/><font class="font-size-9 Arial">
+DATABASE BACKUP</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="79" src="/netin/db/backupfiles.aspx" onclick="setAnchor(this);"><span>备份文件管理<br/><font class="font-size-9 Arial">
+BACKUP FILES</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="79" src="/netin/db/sqleditor.aspx" onclick="setAnchor(this);"><span>Sql脚本文件编辑<br/><font class="font-size-9 Arial">
+T-SQL EDITOR</font></span></a></li>
+</ul>
+</li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" onclick="openSubMenu(this);" id="menu-item-3"><i class="sidebar-catalog-item-ico"></i><span class="sidebar-catalog-item-text">系统平台<br/><font class="font-size-12 Arial">SYSTEM DASHBOARD</font></span><i class="sidebar-catalog-item-arrow sidebar-catalog-item-arrow-down"></i></a><ul class="sidebar-catalog sidebar-catalog-depth-2">
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/settings.aspx" onclick="setAnchor(this);"><span>网站设置<br/><font class="font-size-9 Arial">
+WEBSITE SETTINGS</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/language.aspx" onclick="setAnchor(this);"><span>语言管理<br/><font class="font-size-9 Arial">
+LANGUAGE</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/navigation.aspx" onclick="setAnchor(this);"><span>导航管理<br/><font class="font-size-9 Arial">
+SYSTEM MENU</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/log.aspx" onclick="setAnchor(this);"><span>系统日志<br/><font class="font-size-9 Arial">
+SYSTEM LOG</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/emailaccount.aspx" onclick="setAnchor(this);"><span>邮箱账号管理<br/><font class="font-size-9 Arial">
+EMAILL ACCOUNTS</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/friendlink.aspx" onclick="setAnchor(this);"><span>友情链接<br/><font class="font-size-9 Arial">
+FRIEND LINKS</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/banner.aspx" onclick="setAnchor(this);"><span>Banner图管理<br/><font class="font-size-9 Arial">
+BANNER MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/slider.aspx" onclick="setAnchor(this);"><span>幻灯片管理<br/><font class="font-size-9 Arial">
+SLIDER MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/websitelink.aspx" onclick="setAnchor(this);"><span>站内链接<br/><font class="font-size-9 Arial">
+WEBSITE LINK WORDS</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/sitemap.aspx" onclick="setAnchor(this);"><span>网站地图<br/><font class="font-size-9 Arial">
+WEBSITE MAP</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/column_seo.aspx" onclick="setAnchor(this);"><span>栏目优化<br/><font class="font-size-9 Arial">
+SEO</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/media.aspx" onclick="setAnchor(this);"><span>图片管理<br/><font class="font-size-9 Arial">
+PICTURES</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/faq.aspx" onclick="setAnchor(this);"><span>Faq<br/><font class="font-size-9 Arial">
+FAQ MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/cachefilemgr.aspx" onclick="setAnchor(this);"><span>缓存文件管理<br/><font class="font-size-9 Arial">
+CACHE FILE MGR</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/htmlblock.aspx" onclick="setAnchor(this);"><span>自定义Html区管理<br/><font class="font-size-9 Arial">
+CUSTOM HTML BLOCK</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="3" src="/netin/common/robots.aspx" onclick="setAnchor(this);"><span>爬虫协议<br/><font class="font-size-9 Arial">
+ROBOTS</font></span></a></li>
+</ul>
+</li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" onclick="openSubMenu(this);" id="menu-item-11"><i class="sidebar-catalog-item-ico"></i><span class="sidebar-catalog-item-text">商品<br/><font class="font-size-12 Arial">GOODS</font></span><i class="sidebar-catalog-item-arrow sidebar-catalog-item-arrow-down"></i></a><ul class="sidebar-catalog sidebar-catalog-depth-2">
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="11" src="/netin/goods/goods_list.aspx" onclick="setAnchor(this);"><span>商品管理<br/><font class="font-size-9 Arial">
+GOODS MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="11" src="/netin/goods/removeditems.aspx" onclick="setAnchor(this);"><span>下架商品管理<br/><font class="font-size-9 Arial">
+OFF SALE GOODS</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="11" src="/netin/goods/goods_edit.aspx" onclick="setAnchor(this);"><span>添加商品<br/><font class="font-size-9 Arial">
+ADD GOODS</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="11" src="/netin/goods/category_list.aspx" onclick="setAnchor(this);"><span>商品分类管理<br/><font class="font-size-9 Arial">
+GOODS CATEGORY</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="11" src="/netin/goods/category_edit.aspx" onclick="setAnchor(this);"><span>添加商品分类<br/><font class="font-size-9 Arial">
+ADD GOODS CATEGORY</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="11" src="/netin/goods/attribute.aspx" onclick="setAnchor(this);"><span>属性管理<br/><font class="font-size-9 Arial">
+GOODS ATTRIBUTES</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="11" src="/netin/goods/parameter_group.aspx" onclick="setAnchor(this);"><span>商品参数组管理<br/><font class="font-size-9 Arial">
+GOODS PARAMETERS GROUP</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="11" src="/netin/goods/ask.aspx" onclick="setAnchor(this);"><span>商品咨询<br/><font class="font-size-9 Arial">
+GOODS ASK</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="11" src="/netin/goods/review.aspx" onclick="setAnchor(this);"><span>商品评论<br/><font class="font-size-9 Arial">
+GOODS REVIEWS</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="11" src="/netin/goods/tag.aspx" onclick="setAnchor(this);"><span>商品标签<br/><font class="font-size-9 Arial">
+GOODS TAG MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="11" src="/netin/goods/settings.aspx" onclick="setAnchor(this);"><span>商品设置<br/><font class="font-size-9 Arial">
+GOODS SETTINGS</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="11" src="/netin/goods/measure.aspx" onclick="setAnchor(this);"><span>单位管理<br/><font class="font-size-9 Arial">
+MEASURE</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="11" src="/netin/goods/brand.aspx" onclick="setAnchor(this);"><span>品牌管理<br/><font class="font-size-9 Arial">
+BRAND</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="11" src="/netin/goods/recycle.aspx" onclick="setAnchor(this);"><span>回收站<br/><font class="font-size-9 Arial">
+RECYCLE</font></span></a></li>
+</ul>
+</li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" onclick="openSubMenu(this);" id="menu-item-21"><i class="sidebar-catalog-item-ico"></i><span class="sidebar-catalog-item-text">销售<br/><font class="font-size-12 Arial">SALES</font></span><i class="sidebar-catalog-item-arrow sidebar-catalog-item-arrow-down"></i></a><ul class="sidebar-catalog sidebar-catalog-depth-2">
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="21" src="/netin/sale/orders.aspx" onclick="setAnchor(this);"><span>订单管理<br/><font class="font-size-9 Arial">
+ORDER MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="21" src="/netin/sale/paymentmethod.aspx" onclick="setAnchor(this);"><span>支付方式<br/><font class="font-size-9 Arial">
+PAYMENT METHODS</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="21" src="/netin/sale/discount.aspx" onclick="setAnchor(this);"><span>折扣<br/><font class="font-size-9 Arial">
+DISCOUNT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="21" src="/netin/sale/campaign.aspx" onclick="setAnchor(this);"><span>促销活动<br/><font class="font-size-9 Arial">
+SALE CAMPAIGN</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="21" src="/netin/sale/promotion.aspx" onclick="setAnchor(this);"><span>商品推销<br/><font class="font-size-9 Arial">
+PROMOTION</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="21" src="/netin/sale/shippingmethod.aspx" onclick="setAnchor(this);"><span>运送方式<br/><font class="font-size-9 Arial">
+SHIPPING METHODS</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="21" src="/netin/sale/wishlist.aspx" onclick="setAnchor(this);"><span>收藏夹<br/><font class="font-size-9 Arial">
+WISHLIST</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="21" src="/netin/sale/shoppingcart.aspx" onclick="setAnchor(this);"><span>购物车<br/><font class="font-size-9 Arial">
+SHOPPING CART</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="21" src="/netin/sale/shippings.aspx" onclick="setAnchor(this);"><span>发货单<br/><font class="font-size-9 Arial">
+SHIPPING ITEMS</font></span></a></li>
+</ul>
+</li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" onclick="openSubMenu(this);" id="menu-item-46"><i class="sidebar-catalog-item-ico"></i><span class="sidebar-catalog-item-text">二级页面<br/><font class="font-size-12 Arial">PAGES</font></span><i class="sidebar-catalog-item-arrow sidebar-catalog-item-arrow-down"></i></a><ul class="sidebar-catalog sidebar-catalog-depth-2">
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="46" src="/netin/single/pages.aspx" onclick="setAnchor(this);"><span>二级页面管理<br/><font class="font-size-9 Arial">
+PAGE MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="46" src="/netin/single/edit.aspx" onclick="setAnchor(this);"><span>添加二级页面<br/><font class="font-size-9 Arial">
+ADD PAGE</font></span></a></li>
+</ul>
+</li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" onclick="openSubMenu(this);" id="menu-item-36"><i class="sidebar-catalog-item-ico"></i><span class="sidebar-catalog-item-text">文章<br/><font class="font-size-12 Arial">CONTENT</font></span><i class="sidebar-catalog-item-arrow sidebar-catalog-item-arrow-down"></i></a><ul class="sidebar-catalog sidebar-catalog-depth-2">
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="36" src="/netin/article/articles.aspx" onclick="setAnchor(this);"><span>文章管理<br/><font class="font-size-9 Arial">
+ARTICLE MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="36" src="/netin/article/article_class.aspx" onclick="setAnchor(this);"><span>文章分类管理<br/><font class="font-size-9 Arial">
+ARTICLE CATEGORY</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="36" src="/netin/article/article_class_edit.aspx" onclick="setAnchor(this);"><span>添加文章分类<br/><font class="font-size-9 Arial">
+ADD ARTICLE CATEGORY</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="36" src="/netin/article/edit.aspx" onclick="setAnchor(this);"><span>添加文章<br/><font class="font-size-9 Arial">
+ADD ARTICLE</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="36" src="/netin/article/settings.aspx" onclick="setAnchor(this);"><span>文章设置<br/><font class="font-size-9 Arial">
+ARTICLE SETTINGS</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="36" src="/netin/article/recycle.aspx" onclick="setAnchor(this);"><span>回收站<br/><font class="font-size-9 Arial">
+RECYCLE</font></span></a></li>
+</ul>
+</li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" onclick="openSubMenu(this);" id="menu-item-41"><i class="sidebar-catalog-item-ico"></i><span class="sidebar-catalog-item-text">产品<br/><font class="font-size-12 Arial">PRODUCT</font></span><i class="sidebar-catalog-item-arrow sidebar-catalog-item-arrow-down"></i></a><ul class="sidebar-catalog sidebar-catalog-depth-2">
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="41" src="/netin/product/list.aspx" onclick="setAnchor(this);"><span>产品管理<br/><font class="font-size-9 Arial">
+PRODUCT MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="41" src="/netin/product/categories.aspx" onclick="setAnchor(this);"><span>产品分类管理<br/><font class="font-size-9 Arial">
+CATEGORY MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="41" src="/netin/product/category_edit.aspx" onclick="setAnchor(this);"><span>添加产品分类<br/><font class="font-size-9 Arial">
+ADD PRODUCT CATEGORY</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="41" src="/netin/product/edit.aspx" onclick="setAnchor(this);"><span>添加产品<br/><font class="font-size-9 Arial">
+ADD PRODUCT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="41" src="/netin/product/settings.aspx" onclick="setAnchor(this);"><span>产品设置<br/><font class="font-size-9 Arial">
+PRODUCT SETTINGS</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="41" src="/netin/product/day.aspx" onclick="setAnchor(this);"><span>日期管理<br/><font class="font-size-9 Arial">
+DATE MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="41" src="/netin/product/area.aspx" onclick="setAnchor(this);"><span>地区管理<br/><font class="font-size-9 Arial">
+AREA MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="41" src="/netin/product/recycle.aspx" onclick="setAnchor(this);"><span>回收站<br/><font class="font-size-9 Arial">
+RECYCLE</font></span></a></li>
+</ul>
+</li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" onclick="openSubMenu(this);" id="menu-item-54"><i class="sidebar-catalog-item-ico"></i><span class="sidebar-catalog-item-text">留言<br/><font class="font-size-12 Arial">MESSAGE</font></span><i class="sidebar-catalog-item-arrow sidebar-catalog-item-arrow-down"></i></a><ul class="sidebar-catalog sidebar-catalog-depth-2">
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="54" src="/netin/guestbook/list.aspx" onclick="setAnchor(this);"><span>留言管理<br/><font class="font-size-9 Arial">
+MESSAGE MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="54" src="/netin/guestbook/settings.aspx" onclick="setAnchor(this);"><span>留言设置<br/><font class="font-size-9 Arial">
+SETTINGS</font></span></a></li>
+</ul>
+</li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" onclick="openSubMenu(this);" id="menu-item-49"><i class="sidebar-catalog-item-ico"></i><span class="sidebar-catalog-item-text">会员<br/><font class="font-size-12 Arial">CUSTOMER</font></span><i class="sidebar-catalog-item-arrow sidebar-catalog-item-arrow-down"></i></a><ul class="sidebar-catalog sidebar-catalog-depth-2">
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="49" src="/netin/customer/list.aspx" onclick="setAnchor(this);"><span>会员管理<br/><font class="font-size-9 Arial">
+CUSTOMER MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="49" src="/netin/customer/edit.aspx" onclick="setAnchor(this);"><span>添加会员<br/><font class="font-size-9 Arial">
+ADD CUSTOMER</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="49" src="/netin/customer/role.aspx" onclick="setAnchor(this);"><span>会员组管理<br/><font class="font-size-9 Arial">
+CUSTOMER ROLE</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="49" src="/netin/customer/consignee.aspx" onclick="setAnchor(this);"><span>收货人管理<br/><font class="font-size-9 Arial">
+CONSIGNEE MANAGEMENT</font></span></a></li>
+</ul>
+</li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" onclick="openSubMenu(this);" id="menu-item-30"><i class="sidebar-catalog-item-ico"></i><span class="sidebar-catalog-item-text">管理员<br/><font class="font-size-12 Arial">USER</font></span><i class="sidebar-catalog-item-arrow sidebar-catalog-item-arrow-down"></i></a><ul class="sidebar-catalog sidebar-catalog-depth-2">
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="30" src="/netin/user/users.aspx" onclick="setAnchor(this);"><span>管理员管理<br/><font class="font-size-9 Arial">
+USER MANAGEMENT</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="30" src="/netin/user/user_edit.aspx" onclick="setAnchor(this);"><span>添加管理员<br/><font class="font-size-9 Arial">
+ADD USER</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="30" src="/netin/user/userlevel.aspx" onclick="setAnchor(this);"><span>管理员组<br/><font class="font-size-9 Arial">
+USER GROUP</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="30" src="/netin/user/authorize.aspx" onclick="setAnchor(this);"><span>管理员授权<br/><font class="font-size-9 Arial">
+AUTHORIZATION</font></span></a></li>
+<li class="sidebar-catalog-item">
+<a href="javascript:;" data-item-father-id="30" src="/netin/user/permission.aspx" onclick="setAnchor(this);"><span>授权项管理<br/><font class="font-size-9 Arial">
+PERMISSION RECORDS</font></span></a></li>
+</ul>
+</li>
+</ul>

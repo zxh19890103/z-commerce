@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GuestBookSetting>
+  <EnableVerification>False</EnableVerification>
+  <EnableCheckCode>True</EnableCheckCode>
+  <EnableFloatQueryBox>False</EnableFloatQueryBox>
+  <EnableSendEmail>True</EnableSendEmail>
+  <EmailAddressToReceiveEmail>zhangxinghai@naite.com.cn</EmailAddressToReceiveEmail>
+  <EmailToName>zhangxinghai</EmailToName>
+  <FiltrateUrl>True</FiltrateUrl>
+  <FiltrateSensitiveWords>True</FiltrateSensitiveWords>
+  <SensitiveWords>os</SensitiveWords>
+  <ScriptOfFloatQueryBox>
+  </ScriptOfFloatQueryBox>
+</GuestBookSetting>

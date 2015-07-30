@@ -1,0 +1,1 @@
+data source=(localdb)\projects;initial catalog=netin7db_shop;Integrated Security=True;persist security info=True;user id=sa;password=sa;MultipleActiveResultSets=True;max pool size=512

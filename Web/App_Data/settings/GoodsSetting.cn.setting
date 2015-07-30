@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GoodsSetting>
+  <EnableThumbOnList>True</EnableThumbOnList>
+  <ThumbWidthOnList>120</ThumbWidthOnList>
+  <ThumbHeightOnList>230</ThumbHeightOnList>
+  <ThumbModeOnList>10</ThumbModeOnList>
+  <EnableThumbOnHome>False</EnableThumbOnHome>
+  <ThumbWidthOnHome>0</ThumbWidthOnHome>
+  <ThumbHeightOnHome>0</ThumbHeightOnHome>
+  <ThumbModeOnHome>30</ThumbModeOnHome>
+  <EnableThumbOnDetail>True</EnableThumbOnDetail>
+  <ThumbWidthOnDetail>30</ThumbWidthOnDetail>
+  <ThumbHeightOnDetail>50</ThumbHeightOnDetail>
+  <ThumbModeOnDetail>1</ThumbModeOnDetail>
+  <EnableTextMark>True</EnableTextMark>
+  <TextMark>why i am i?</TextMark>
+  <TextMarkPosition>40</TextMarkPosition>
+  <FontFamily>Arial</FontFamily>
+  <WidthOfTextBox>100</WidthOfTextBox>
+  <HeightOfTextBox>100</HeightOfTextBox>
+  <EnableImgMark>True</EnableImgMark>
+  <ImgMarkAlpha>0.8</ImgMarkAlpha>
+  <ImgMarkPosition>60</ImgMarkPosition>
+  <MarkImgUrl>/upload/201412/201412041143447792.jpg</MarkImgUrl>
+</GoodsSetting>

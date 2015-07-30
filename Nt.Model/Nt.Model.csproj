@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CCB94FDC-5C57-4062-B444-AAC79054DE89}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nt.Model</RootNamespace>
+    <AssemblyName>Nt.Model</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Area.cs" />
+    <Compile Include="Article.cs" />
+    <Compile Include="Article_Class.cs" />
+    <Compile Include="Banner.cs" />
+    <Compile Include="BaseEntity.cs" />
+    <Compile Include="BaseLocaleEntity.cs" />
+    <Compile Include="BaseModel.cs" />
+    <Compile Include="BaseTreeEntity.cs" />
+    <Compile Include="Brand.cs" />
+    <Compile Include="Campaign.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="CustomerRole.cs" />
+    <Compile Include="Customer_Consignee.cs" />
+    <Compile Include="Customer_Message.cs" />
+    <Compile Include="Customer_Message_Customer_Mapping.cs" />
+    <Compile Include="Customer_Wishlist.cs" />
+    <Compile Include="CustomHtmlBlock.cs" />
+    <Compile Include="Day.cs" />
+    <Compile Include="Discount.cs" />
+    <Compile Include="EmailAccount.cs" />
+    <Compile Include="Enum\ModuleType.cs" />
+    <Compile Include="Enum\OrderStatus.cs" />
+    <Compile Include="Enum\PaymentStatus.cs" />
+    <Compile Include="Enum\ShippingStatus.cs" />
+    <Compile Include="Faq.cs" />
+    <Compile Include="Filter.cs" />
+    <Compile Include="FriendLink.cs" />
+    <Compile Include="Goods.cs" />
+    <Compile Include="GoodsAttribute.cs" />
+    <Compile Include="Goods_Parameter.cs" />
+    <Compile Include="Goods_Ask.cs" />
+    <Compile Include="Goods_Attribute_Mapping.cs" />
+    <Compile Include="Goods_Promotion_Mapping.cs" />
+    <Compile Include="Goods_VariantAttributeValue.cs" />
+    <Compile Include="Goods_Binding.cs" />
+    <Compile Include="Goods_Class.cs" />
+    <Compile Include="Goods_ParameterGroup.cs" />
+    <Compile Include="Goods_Picture_Mapping.cs" />
+    <Compile Include="Goods_Promotion.cs" />
+    <Compile Include="Goods_Review.cs" />
+    <Compile Include="Goods_Tag.cs" />
+    <Compile Include="GuestBook.cs" />
+    <Compile Include="GuestBookReply.cs" />
+    <Compile Include="IDeletable.cs" />
+    <Compile Include="IDisplayable.cs" />
+    <Compile Include="IEntity.cs" />
+    <Compile Include="IGuidModel.cs" />
+    <Compile Include="IHtmlizable.cs" />
+    <Compile Include="ILocaleEntity.cs" />
+    <Compile Include="IModel.cs" />
+    <Compile Include="IOrderable.cs" />
+    <Compile Include="IPictureAttachable.cs" />
+    <Compile Include="IUserTarceable.cs" />
+    <Compile Include="Language.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="Measure.cs" />
+    <Compile Include="Navigation.cs" />
+    <Compile Include="Common\NtListItem.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderItem.cs" />
+    <Compile Include="OrderNote.cs" />
+    <Compile Include="PaymentMethod.cs" />
+    <Compile Include="Permission.cs" />
+    <Compile Include="Permission_UserLevel_Mapping.cs" />
+    <Compile Include="Picture.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductCategory.cs" />
+    <Compile Include="Product_Picture_Mapping.cs" />
+    <Compile Include="Setting\ArticleSetting.cs" />
+    <Compile Include="Setting\BaseSetting.cs" />
+    <Compile Include="Setting\GoodsSetting.cs" />
+    <Compile Include="Setting\GuestBookSetting.cs" />
+    <Compile Include="Setting\ISetting.cs" />
+    <Compile Include="Setting\ProductSetting.cs" />
+    <Compile Include="Setting\WebsiteInfoSetting.cs" />
+    <Compile Include="ShippingMethod.cs" />
+    <Compile Include="ShoppingCartItem.cs" />
+    <Compile Include="SinglePage.cs" />
+    <Compile Include="Slider.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserLevel.cs" />
+    <Compile Include="View\BaseView.cs" />
+    <Compile Include="View\ISiblingsTraceable.cs" />
+    <Compile Include="View\IView.cs" />
+    <Compile Include="View\IViewHigh.cs" />
+    <Compile Include="View\IViewMedium.cs" />
+    <Compile Include="View\View_Article.cs" />
+    <Compile Include="View\View_ArticleClass.cs" />
+    <Compile Include="View\View_Banner.cs" />
+    <Compile Include="View\View_Customer_Message.cs" />
+    <Compile Include="View\View_Customer_Wishlist.cs" />
+    <Compile Include="View\View_FriendLink.cs" />
+    <Compile Include="View\View_Goods.cs" />
+    <Compile Include="View\View_GoodsAttribute.cs" />
+    <Compile Include="View\View_GoodsClass.cs" />
+    <Compile Include="View\View_GoodsParameter.cs" />
+    <Compile Include="View\View_GoodsPicture.cs" />
+    <Compile Include="NtAttribute\FieldSize.cs" />
+    <Compile Include="NtAttribute\FKConstraint.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\View_Customer.cs" />
+    <Compile Include="View\View_GoodsVariantAttributeValue.cs" />
+    <Compile Include="View\View_Goods_Ask.cs" />
+    <Compile Include="View\View_Goods_Binding.cs" />
+    <Compile Include="View\View_Goods_Review.cs" />
+    <Compile Include="View\View_GuestBook.cs" />
+    <Compile Include="View\View_GuestBookReply.cs" />
+    <Compile Include="View\View_Language.cs" />
+    <Compile Include="View\View_Log.cs" />
+    <Compile Include="View\View_Navigation.cs" />
+    <Compile Include="View\View_Order.cs" />
+    <Compile Include="View\View_OrderItem.cs" />
+    <Compile Include="View\View_Permission.cs" />
+    <Compile Include="View\View_Product.cs" />
+    <Compile Include="View\View_ProductCategory.cs" />
+    <Compile Include="View\View_ProductPicture.cs" />
+    <Compile Include="View\View_ShoppingCart.cs" />
+    <Compile Include="View\View_Slider.cs" />
+    <Compile Include="View\View_User.cs" />
+    <Compile Include="View\View_User_Permission.cs" />
+    <Compile Include="WebsiteLinkItem.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

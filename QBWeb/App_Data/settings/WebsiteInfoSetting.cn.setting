@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebsiteInfoSetting>
+  <WebsiteName>sd</WebsiteName>
+  <SeoTitle>sad</SeoTitle>
+  <SeoKeywords>sdsd</SeoKeywords>
+  <SeoDescription>
+  </SeoDescription>
+  <CompanyName>
+  </CompanyName>
+  <CompanyAddress>
+  </CompanyAddress>
+  <WebsiteUrl>http://localhost:1359</WebsiteUrl>
+  <Email>
+  </Email>
+  <Phone>
+  </Phone>
+  <Fax>
+  </Fax>
+  <Mobile>
+  </Mobile>
+  <Linkman>
+  </Linkman>
+  <ZipCode>
+  </ZipCode>
+  <ICP>
+  </ICP>
+  <SetHtmlOn>True</SetHtmlOn>
+  <QQ>sdsd</QQ>
+  <SetWebsiteOff>False</SetWebsiteOff>
+  <Logo>http://news.xinhuanet.com/photo/2015-01/09/127372952_14207808355601n.jpg</Logo>
+</WebsiteInfoSetting>
