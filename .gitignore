@@ -36,3 +36,6 @@
 *.mp4
 *.mpeg
 *.bmp
+*.bak
+Connection.txt
+Connection.txt.*
