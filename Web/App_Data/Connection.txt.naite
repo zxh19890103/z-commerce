@@ -1,1 +1,0 @@
-data source=michael-pc\SQLEXPRESS;initial catalog=netin7db_shop;Integrated Security=False;persist security info=True;user id=sa;password=sa;MultipleActiveResultSets=True;max pool size=300
